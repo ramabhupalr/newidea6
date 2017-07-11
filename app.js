@@ -1,19 +1,20 @@
+//app.js
 (function() {
 'use strict';
 
     angular
-        .module('app')
+        .module('myapp', [])
         .controller('HomeController', HomeController);
 
     HomeController.inject = ['$log'];
     function HomeController($log) {
         var vm = this;
-        vm.title = "my new idea6";
+        vm.title = "Hello Worldddddddddd";
 
-        activate();
+        // activate();
 
-        ////////////////
+        // ////////////////
 
-        function activate() { }
+        // function activate() { }
     }
 })();

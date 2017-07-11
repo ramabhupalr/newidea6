@@ -1,7 +1,6 @@
 {
   "name": "newidea6",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +8,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/angular": "^1.6.25"
-  }
+    "@types/angular": "^1.6.25",
+    "angular": "^1.6.5",
+    "angular-route": "^1.6.5"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramabhupalr/newidea6.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ramabhupalr/newidea6/issues"
+  },
+  "homepage": "https://github.com/ramabhupalr/newidea6#readme",
+  "description": ""
 }
